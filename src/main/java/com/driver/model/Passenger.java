@@ -18,12 +18,10 @@ public class Passenger {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int passengerId;
-
     private String name;
-
     private int age;
 
-    //passengers and tickets are many to manny
+    //passengers and tickets are many to many
 
     public Passenger() {
     }
